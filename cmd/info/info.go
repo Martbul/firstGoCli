@@ -1,7 +1,3 @@
-/*
-Copyright © 2024 NAME HERE <EMAIL ADDRESS>
-
-*/
 package info
 
 import (
@@ -10,7 +6,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// infoCmd represents the info command
 var InfoCmd = &cobra.Command{
 	Use:   "info",
 	Short: "All things information",
